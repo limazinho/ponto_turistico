@@ -1,0 +1,23 @@
+body{
+    background-image: url('../img/capa.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 1019px){
+    body{
+        height: 935px;
+    }
+}
+
+@media (max-width: 885px){
+    body{
+        height: 950px;
+    }
+}
+
+@media (max-width: 600px){
+    body{
+        height: 800px;
+    }
+}
